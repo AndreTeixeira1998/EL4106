@@ -1,28 +1,29 @@
-# EL4106
+# EL4106  
+## Topic 2 — Occlusion Map Estimation in Neural Networks
 
-## Tema 2 - Estimación de mapas de oclusión en redes neuronales
+**Authors:** André Teixeira and Raydel Ortigueira
 
-André Teixeira y Raydel Ortigueira
+## Execution Instructions
 
+To run this project, create a folder named `dataset` in the project root directory. Place the following files inside that folder:
 
-Para ejecutar debe crear una carpeta llamada "dataset" en la carpeta del proyecto y poner los archivo "HiTS2013_100k_samples (4_channels) _images_labels.pkl" y "OCmaps_F.pkl".
+- `HiTS2013_100k_samples (4_channels) _images_labels.pkl`
+- `OCmaps_F.pkl`
 
-Ejecute con Jupyter Notebook todas las celdas y secuencialmente.
+Open the project in **Jupyter Notebook** and execute all notebook cells sequentially.
 
-Requisitos y Librerías:
+## Requirements and Libraries
 
-Python 3.7
+This project requires the following environment and dependencies:
 
-numpy
+- Python 3.7
+- NumPy
+- Matplotlib
+- TensorFlow 1.14.0
+- Keras 2.3.0
+- Pickle
+- scikit-learn
 
-matplotlib
+## Recommended Environment
 
-tensorflow==1.14.0
-
-keras==2.3.0
-
-pickle
-
-sklearn
-
-Se recomienda Anaconda 3 Python Notebook.
+It is recommended to use **Anaconda 3** with **Jupyter Notebook** to ensure compatibility and simplify dependency management.
