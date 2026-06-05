@@ -1,4 +1,4 @@
-# EL4106-1oProyecto
+# EL4106
 
 ## Tema 2 - Estimación de mapas de oclusión en redes neuronales
 
